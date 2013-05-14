@@ -17,7 +17,14 @@
 		3766FC181741D36000A4EEF3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3766FC171741D36000A4EEF3 /* Default@2x.png */; };
 		3766FC1A1741D36000A4EEF3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3766FC191741D36000A4EEF3 /* Default-568h@2x.png */; };
 		3766FC1D1741D36000A4EEF3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3766FC1B1741D36000A4EEF3 /* MainStoryboard.storyboard */; };
-		3766FC201741D36000A4EEF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3766FC1F1741D36000A4EEF3 /* ViewController.m */; };
+		3766FC291741D3CE00A4EEF3 /* FirstTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3766FC281741D3CE00A4EEF3 /* FirstTabController.m */; };
+		3766FC2C1741D3F200A4EEF3 /* SecondTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3766FC2B1741D3F200A4EEF3 /* SecondTabController.m */; };
+		3766FC2F1741D40A00A4EEF3 /* ThirdTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3766FC2E1741D40A00A4EEF3 /* ThirdTabController.m */; };
+		3766FC321741D42100A4EEF3 /* FourthTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3766FC311741D42100A4EEF3 /* FourthTabBarController.m */; };
+		3766FC351741D43300A4EEF3 /* FifthTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3766FC341741D43300A4EEF3 /* FifthTabBarController.m */; };
+		3766FC381741D44900A4EEF3 /* SixthTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3766FC371741D44900A4EEF3 /* SixthTabBarController.m */; };
+		3766FC3B1741D46700A4EEF3 /* SeventhTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3766FC3A1741D46700A4EEF3 /* SeventhTabBarController.m */; };
+		3766FC3E1741D74300A4EEF3 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3766FC3D1741D74300A4EEF3 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +42,22 @@
 		3766FC171741D36000A4EEF3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3766FC191741D36000A4EEF3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3766FC1C1741D36000A4EEF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3766FC1E1741D36000A4EEF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3766FC1F1741D36000A4EEF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3766FC271741D3CE00A4EEF3 /* FirstTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTabController.h; sourceTree = "<group>"; };
+		3766FC281741D3CE00A4EEF3 /* FirstTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTabController.m; sourceTree = "<group>"; };
+		3766FC2A1741D3F200A4EEF3 /* SecondTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTabController.h; sourceTree = "<group>"; };
+		3766FC2B1741D3F200A4EEF3 /* SecondTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTabController.m; sourceTree = "<group>"; };
+		3766FC2D1741D40A00A4EEF3 /* ThirdTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTabController.h; sourceTree = "<group>"; };
+		3766FC2E1741D40A00A4EEF3 /* ThirdTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTabController.m; sourceTree = "<group>"; };
+		3766FC301741D42100A4EEF3 /* FourthTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthTabBarController.h; sourceTree = "<group>"; };
+		3766FC311741D42100A4EEF3 /* FourthTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthTabBarController.m; sourceTree = "<group>"; };
+		3766FC331741D43300A4EEF3 /* FifthTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthTabBarController.h; sourceTree = "<group>"; };
+		3766FC341741D43300A4EEF3 /* FifthTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthTabBarController.m; sourceTree = "<group>"; };
+		3766FC361741D44900A4EEF3 /* SixthTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixthTabBarController.h; sourceTree = "<group>"; };
+		3766FC371741D44900A4EEF3 /* SixthTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixthTabBarController.m; sourceTree = "<group>"; };
+		3766FC391741D46700A4EEF3 /* SeventhTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeventhTabBarController.h; sourceTree = "<group>"; };
+		3766FC3A1741D46700A4EEF3 /* SeventhTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeventhTabBarController.m; sourceTree = "<group>"; };
+		3766FC3C1741D74300A4EEF3 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		3766FC3D1741D74300A4EEF3 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				3766FC091741D36000A4EEF3 /* CustomTabBar */,
+				3766FC261741D37F00A4EEF3 /* Controllers */,
 				3766FC021741D36000A4EEF3 /* Frameworks */,
 				3766FC011741D36000A4EEF3 /* Products */,
 			);
@@ -86,8 +108,6 @@
 				3766FC121741D36000A4EEF3 /* AppDelegate.h */,
 				3766FC131741D36000A4EEF3 /* AppDelegate.m */,
 				3766FC1B1741D36000A4EEF3 /* MainStoryboard.storyboard */,
-				3766FC1E1741D36000A4EEF3 /* ViewController.h */,
-				3766FC1F1741D36000A4EEF3 /* ViewController.m */,
 				3766FC0A1741D36000A4EEF3 /* Supporting Files */,
 			);
 			path = CustomTabBar;
@@ -105,6 +125,30 @@
 				3766FC191741D36000A4EEF3 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3766FC261741D37F00A4EEF3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3766FC3C1741D74300A4EEF3 /* BaseViewController.h */,
+				3766FC3D1741D74300A4EEF3 /* BaseViewController.m */,
+				3766FC271741D3CE00A4EEF3 /* FirstTabController.h */,
+				3766FC281741D3CE00A4EEF3 /* FirstTabController.m */,
+				3766FC2A1741D3F200A4EEF3 /* SecondTabController.h */,
+				3766FC2B1741D3F200A4EEF3 /* SecondTabController.m */,
+				3766FC2D1741D40A00A4EEF3 /* ThirdTabController.h */,
+				3766FC2E1741D40A00A4EEF3 /* ThirdTabController.m */,
+				3766FC301741D42100A4EEF3 /* FourthTabBarController.h */,
+				3766FC311741D42100A4EEF3 /* FourthTabBarController.m */,
+				3766FC331741D43300A4EEF3 /* FifthTabBarController.h */,
+				3766FC341741D43300A4EEF3 /* FifthTabBarController.m */,
+				3766FC361741D44900A4EEF3 /* SixthTabBarController.h */,
+				3766FC371741D44900A4EEF3 /* SixthTabBarController.m */,
+				3766FC391741D46700A4EEF3 /* SeventhTabBarController.h */,
+				3766FC3A1741D46700A4EEF3 /* SeventhTabBarController.m */,
+			);
+			name = Controllers;
+			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,7 +219,14 @@
 			files = (
 				3766FC101741D36000A4EEF3 /* main.m in Sources */,
 				3766FC141741D36000A4EEF3 /* AppDelegate.m in Sources */,
-				3766FC201741D36000A4EEF3 /* ViewController.m in Sources */,
+				3766FC291741D3CE00A4EEF3 /* FirstTabController.m in Sources */,
+				3766FC2C1741D3F200A4EEF3 /* SecondTabController.m in Sources */,
+				3766FC2F1741D40A00A4EEF3 /* ThirdTabController.m in Sources */,
+				3766FC321741D42100A4EEF3 /* FourthTabBarController.m in Sources */,
+				3766FC351741D43300A4EEF3 /* FifthTabBarController.m in Sources */,
+				3766FC381741D44900A4EEF3 /* SixthTabBarController.m in Sources */,
+				3766FC3B1741D46700A4EEF3 /* SeventhTabBarController.m in Sources */,
+				3766FC3E1741D74300A4EEF3 /* BaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

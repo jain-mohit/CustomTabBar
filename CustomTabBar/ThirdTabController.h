@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ThirdTabController.h
 //  CustomTabBar
 //
 //  Created by Mohit Jain on 5/13/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ThirdTabController : UIViewController
 
 @end
