@@ -35,6 +35,8 @@
 @property(nonatomic,strong) UINavigationController *navSixthTab;
 @property(nonatomic,strong) UINavigationController *navSeventhTab;
 
+@property(nonatomic, strong)UIView *currentView;
+
 
 
 
