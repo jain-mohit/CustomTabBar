@@ -170,7 +170,7 @@
         _navSecondTab.navigationBar.tintColor = [UIColor blackColor];
         _navSecondTab.view.frame = rect;
     }
-    return _navFirstTab;
+    return _navSecondTab;
 }
 
 - (UINavigationController*) navThirdTab
