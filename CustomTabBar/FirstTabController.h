@@ -10,4 +10,6 @@
 
 @interface FirstTabController : UIViewController
 
+
+-(IBAction)goTodetailView :(id)sender;
 @end

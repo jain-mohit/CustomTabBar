@@ -25,6 +25,9 @@
 		3766FC381741D44900A4EEF3 /* SixthTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3766FC371741D44900A4EEF3 /* SixthTabBarController.m */; };
 		3766FC3B1741D46700A4EEF3 /* SeventhTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3766FC3A1741D46700A4EEF3 /* SeventhTabBarController.m */; };
 		3766FC3E1741D74300A4EEF3 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3766FC3D1741D74300A4EEF3 /* BaseViewController.m */; };
+		3766FC4D17448EB600A4EEF3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3766FC4B17448EB600A4EEF3 /* icon.png */; };
+		3766FC4E17448EB600A4EEF3 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3766FC4C17448EB600A4EEF3 /* icon@2x.png */; };
+		378495B917449FDC00344E12 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378495B817449FDC00344E12 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +61,10 @@
 		3766FC3A1741D46700A4EEF3 /* SeventhTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeventhTabBarController.m; sourceTree = "<group>"; };
 		3766FC3C1741D74300A4EEF3 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		3766FC3D1741D74300A4EEF3 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		3766FC4B17448EB600A4EEF3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3766FC4C17448EB600A4EEF3 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		378495B717449FDC00344E12 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		378495B817449FDC00344E12 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +123,8 @@
 		3766FC0A1741D36000A4EEF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3766FC4B17448EB600A4EEF3 /* icon.png */,
+				3766FC4C17448EB600A4EEF3 /* icon@2x.png */,
 				3766FC0B1741D36000A4EEF3 /* CustomTabBar-Info.plist */,
 				3766FC0C1741D36000A4EEF3 /* InfoPlist.strings */,
 				3766FC0F1741D36000A4EEF3 /* main.m */,
@@ -146,6 +155,8 @@
 				3766FC371741D44900A4EEF3 /* SixthTabBarController.m */,
 				3766FC391741D46700A4EEF3 /* SeventhTabBarController.h */,
 				3766FC3A1741D46700A4EEF3 /* SeventhTabBarController.m */,
+				378495B717449FDC00344E12 /* DetailViewController.h */,
+				378495B817449FDC00344E12 /* DetailViewController.m */,
 			);
 			name = Controllers;
 			path = CustomTabBar;
@@ -207,6 +218,8 @@
 				3766FC181741D36000A4EEF3 /* Default@2x.png in Resources */,
 				3766FC1A1741D36000A4EEF3 /* Default-568h@2x.png in Resources */,
 				3766FC1D1741D36000A4EEF3 /* MainStoryboard.storyboard in Resources */,
+				3766FC4D17448EB600A4EEF3 /* icon.png in Resources */,
+				3766FC4E17448EB600A4EEF3 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +240,7 @@
 				3766FC381741D44900A4EEF3 /* SixthTabBarController.m in Sources */,
 				3766FC3B1741D46700A4EEF3 /* SeventhTabBarController.m in Sources */,
 				3766FC3E1741D74300A4EEF3 /* BaseViewController.m in Sources */,
+				378495B917449FDC00344E12 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +330,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomTabBar/CustomTabBar-Prefix.pch";
 				INFOPLIST_FILE = "CustomTabBar/CustomTabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -327,6 +342,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomTabBar/CustomTabBar-Prefix.pch";
 				INFOPLIST_FILE = "CustomTabBar/CustomTabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

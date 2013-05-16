@@ -9,16 +9,31 @@
             <objects>
                 <viewController storyboardIdentifier="FirstTabController" id="aUd-Wu-25d" customClass="FirstTabController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7KC-i9-0Lk">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="First Controller" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fCm-NY-mHm">
-                                <rect key="frame" x="67" y="263" width="163" height="21"/>
+                                <rect key="frame" x="79" y="250" width="163" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RPY-3G-vai">
+                                <rect key="frame" x="66" y="311" width="147" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Go to Detail View">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goTodetailView:" destination="aUd-Wu-25d" eventType="touchUpInside" id="2cV-i4-MSd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -32,7 +47,7 @@
             <objects>
                 <viewController storyboardIdentifier="SecondTabController" id="hGd-vL-JaH" customClass="SecondTabController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sAf-ZR-eJg">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Second Controller" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8g0-Tw-e7I">
@@ -55,7 +70,7 @@
             <objects>
                 <viewController storyboardIdentifier="SeventhTabBarController" id="gau-lg-jAs" customClass="SeventhTabBarController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9eU-gW-Na7">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Seventh Controller" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IZj-qR-Td9">
@@ -78,7 +93,7 @@
             <objects>
                 <viewController storyboardIdentifier="SixthTabBarController" id="040-oP-rBm" customClass="SixthTabBarController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eGC-JI-8wX">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sixth Controller" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jvJ-wj-znv">
@@ -96,16 +111,39 @@
             </objects>
             <point key="canvasLocation" x="-482" y="1191"/>
         </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="Uyh-R4-tGT">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" id="qkq-cz-MlT" customClass="DetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="drY-ae-GCv">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Detail View" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="orF-Lq-VJX">
+                                <rect key="frame" x="117" y="180" width="105" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NA9-y4-B1k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113" y="957"/>
+        </scene>
         <!--Base View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController storyboardIdentifier="BaseViewController" id="2" customClass="BaseViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" showsVerticalScrollIndicator="NO" id="jcd-pS-2G5">
-                                <rect key="frame" x="0.0" y="499" width="320" height="49"/>
+                                <rect key="frame" x="0.0" y="411" width="320" height="49"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="delegate" destination="2" id="YL1-HX-ihL"/>
@@ -133,7 +171,7 @@
             <objects>
                 <viewController storyboardIdentifier="FourthTabBarController" id="OWe-4s-aQW" customClass="FourthTabBarController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hPU-GX-fIL">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fourth Controller" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AuO-Lj-LTE">
@@ -156,7 +194,7 @@
             <objects>
                 <viewController storyboardIdentifier="FifthTabBarController" id="zZh-7o-SYq" customClass="FifthTabBarController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rDr-v6-dw8">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fifth Controller" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qo3-rB-bad">
@@ -179,7 +217,7 @@
             <objects>
                 <viewController storyboardIdentifier="ThirdTabController" id="vtw-oK-79x" customClass="ThirdTabController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V4Q-Es-7lZ">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Third Controller" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6ol-VY-gQS">
@@ -198,39 +236,9 @@
             <point key="canvasLocation" x="982" y="-845"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="BaseViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/BaseViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="currentView" candidateClass="UIView"/>
-                <relationship kind="outlet" name="tabBarScroller" candidateClass="UIScrollView"/>
-            </relationships>
-        </class>
-        <class className="FifthTabBarController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FifthTabBarController.h"/>
-        </class>
-        <class className="FirstTabController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstTabController.h"/>
-        </class>
-        <class className="FourthTabBarController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FourthTabBarController.h"/>
-        </class>
-        <class className="SecondTabController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondTabController.h"/>
-        </class>
-        <class className="SeventhTabBarController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SeventhTabBarController.h"/>
-        </class>
-        <class className="SixthTabBarController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SixthTabBarController.h"/>
-        </class>
-        <class className="ThirdTabController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ThirdTabController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>
