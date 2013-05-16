@@ -100,43 +100,43 @@
 -(void)buttonTapped:(id)sender {
     UIButton *btn = (UIButton *)sender;
     NSLog(@"Tab bar %d is clicked",btn.tag);
-    [self.currentView removeFromSuperview];
+  [self.currentView removeFromSuperview];
     switch (btn.tag) {
             
         case 1:
             
             [self.view addSubview:self.navFirstTab.view];
-            self.currentView = self.navFirstTab.view;
+           self.currentView = self.navFirstTab.view;
             break;
             
         case 2:
             [self.view addSubview:self.navSecondTab.view];
-            self.currentView = self.navSecondTab.view;
+          //  self.currentView = self.navSecondTab.view;
             break;
             
         case 3:
             [self.view addSubview:self.navThirdTab.view];
-            self.currentView = self.navThirdTab.view;
+        //    self.currentView = self.navThirdTab.view;
             break;
             
         case 4:
             [self.view addSubview:self.navFourthTab.view];
-            self.currentView = self.navFourthTab.view;
+         //   self.currentView = self.navFourthTab.view;
             break;
             
         case 5:
             [self.view addSubview:self.navFifthTab.view];
-            self.currentView = self.navFifthTab.view;
+        //    self.currentView = self.navFifthTab.view;
             break;
             
         case 6:
             [self.view addSubview:self.navSixthTab.view];
-            self.currentView = self.navSixthTab.view;
+        //    self.currentView = self.navSixthTab.view;
             break;
             
         case 7:
             [self.view addSubview:self.navSeventhTab.view];
-            self.currentView = self.navSeventhTab.view;
+        //    self.currentView = self.navSeventhTab.view;
             break;
             
         default:
@@ -234,6 +234,7 @@
         _navSeventhTab = [[UINavigationController alloc] initWithRootViewController:self.seventhTab];
         _navSeventhTab.navigationBar.tintColor = [UIColor blackColor];
         _navSeventhTab.view.frame = rect;
+//        _navSeventhTab.navigationBar.tintColor = [UIColor brownColor];
     }
     return _navSeventhTab;
 }
