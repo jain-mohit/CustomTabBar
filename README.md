@@ -8,6 +8,14 @@ Story board is used in this example template.
 Video:
 http://youtu.be/2-HcdK_Sdmw
 
+
+Screen Shots:
+
+![Screen1](./demo-screenshots/TabBar_1.png "Tab Bar showing 5 tabs")
+![Screen2](./demo-screenshots/TabBar_2.png "Tab bar scrolled and showing other tab bars")
+
+
+
 LICENSE: 
 ================
 
