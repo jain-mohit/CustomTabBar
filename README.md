@@ -1,8 +1,12 @@
 CustomTabBar
 ============
 
-This is a custom scrollable tab bar which can be used as a base project template or a sample example to create other similar component. 
+This is a custom scrollable tab bar which can be used as a base project template or as a sample example to create other similar component. 
 Story board is used in this example template. 
+
+
+Video:
+http://youtu.be/2-HcdK_Sdmw
 
 LICENSE: 
 ================
