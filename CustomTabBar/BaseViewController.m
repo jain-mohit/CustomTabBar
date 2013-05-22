@@ -161,6 +161,7 @@
         _navFirstTab = [[UINavigationController alloc] initWithRootViewController:self.firstTab];
         _navFirstTab.navigationBar.tintColor = [UIColor blackColor];
         _navFirstTab.view.frame = rect;
+        _navFirstTab.navigationBar.topItem.title = @"First Controller";
     }
     return _navFirstTab;
 }
@@ -175,6 +176,7 @@
         _navSecondTab = [[UINavigationController alloc] initWithRootViewController:self.secondTab];
         _navSecondTab.navigationBar.tintColor = [UIColor blackColor];
         _navSecondTab.view.frame = rect;
+        _navSecondTab.navigationBar.topItem.title = @"Second Controller";
     }
     return _navSecondTab;
 }
@@ -187,6 +189,7 @@
         }
         _navThirdTab = [[UINavigationController alloc] initWithRootViewController:self.thirdTab];
         _navThirdTab.navigationBar.tintColor = [UIColor blackColor];
+        _navThirdTab.navigationBar.topItem.title = @"Third Controller";
         _navThirdTab.view.frame = rect;
     }
     return _navThirdTab;
@@ -201,6 +204,7 @@
         _navFourthTab = [[UINavigationController alloc] initWithRootViewController:self.fourthTab];
         _navFourthTab.navigationBar.tintColor = [UIColor blackColor];
         _navFourthTab.view.frame = rect;
+        _navFourthTab.navigationBar.topItem.title = @"Fourth Controller";
     }
     return _navFourthTab;
 }
@@ -214,6 +218,7 @@
         _navFifthTab = [[UINavigationController alloc] initWithRootViewController:self.fifthTab];
         _navFifthTab.navigationBar.tintColor = [UIColor blackColor];
         _navFifthTab.view.frame = rect;
+        _navFifthTab.navigationBar.topItem.title = @"Fifth Controller";
     }
     return _navFifthTab;
 }
@@ -227,6 +232,7 @@
         _navSixthTab = [[UINavigationController alloc] initWithRootViewController:self.sixthTab];
         _navSixthTab.navigationBar.tintColor = [UIColor blackColor];
         _navSixthTab.view.frame = rect;
+        _navSixthTab.navigationBar.topItem.title = @"Sixth Controller";
     }
     return _navSixthTab;
 }
@@ -240,6 +246,7 @@
         _navSeventhTab = [[UINavigationController alloc] initWithRootViewController:self.seventhTab];
         _navSeventhTab.navigationBar.tintColor = [UIColor blackColor];
         _navSeventhTab.view.frame = rect;
+        _navSeventhTab.navigationBar.topItem.title = @"Seventh Controller";
     }
     return _navSeventhTab;
 }
