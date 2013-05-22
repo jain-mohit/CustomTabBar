@@ -6,16 +6,42 @@ Story board is used in this example template.
 
 
 Video:
+================
 http://youtu.be/2-HcdK_Sdmw
 
 
 Screen Shots:
+================
 
 ![Screen1](./demo-screenshots/TabBar_1.png "Tab Bar showing 5 tabs")
 ![Screen2](./demo-screenshots/TabBar_2.png "Tab bar scrolled and showing other tab bars")
 
 
+Customization:
+================
 
+Setting root controller other than first tab
+
+    //  BaseViewController.m
+    
+    -(void)setup {
+    ...
+    ...
+    
+    // Select which view to be loaded (actually viewed) as base controller or root controller. 0 - BaseController, 1 -
+    // FirstTabController, 2 - SecondTabcontroller
+    // By default first tab controller is set a rootcontroller
+    
+    [self tabCall:1];
+    }
+    
+Adding more tabs or if want to remove?
+    
+    See the BaseViewController.m 
+    Add new controller files and inherit from UIViewController. Add appropriate methods, tabs, set title, and import relevant classes.
+    You can follow the code written for other tabs. If you want to delete then just delete the files and remove the appropriate code.
+    
+    
 LICENSE: 
 ================
 
