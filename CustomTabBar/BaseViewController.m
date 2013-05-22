@@ -51,6 +51,13 @@
     else {
         rect = CGRectMake(0, 0, 320, 412);
     }
+    
+    // Select which view to be loaded (actually viewed) as base controller or root controller. 0 - BaseController, 1 -
+    // FirstTabController, 2 - SecondTabcontroller
+    // By default first tab controller is set a rootcontroller
+    
+    [self tabCall:1];
+    
 }
 
 -(void)addButtons {
@@ -97,51 +104,58 @@
 }
 
 
--(void)buttonTapped:(id)sender {
-    UIButton *btn = (UIButton *)sender;
-    NSLog(@"Tab bar %d is clicked",btn.tag);
-  [self.currentView removeFromSuperview];
-    switch (btn.tag) {
+
+-(void)tabCall:(NSInteger)tag {
+    switch (tag) {
             
         case 1:
             
             [self.view addSubview:self.navFirstTab.view];
-           self.currentView = self.navFirstTab.view;
+            self.currentView = self.navFirstTab.view;
             break;
             
         case 2:
             [self.view addSubview:self.navSecondTab.view];
-          //  self.currentView = self.navSecondTab.view;
+            //  self.currentView = self.navSecondTab.view;
             break;
             
         case 3:
             [self.view addSubview:self.navThirdTab.view];
-        //    self.currentView = self.navThirdTab.view;
+            //    self.currentView = self.navThirdTab.view;
             break;
             
         case 4:
             [self.view addSubview:self.navFourthTab.view];
-         //   self.currentView = self.navFourthTab.view;
+            //   self.currentView = self.navFourthTab.view;
             break;
             
         case 5:
             [self.view addSubview:self.navFifthTab.view];
-        //    self.currentView = self.navFifthTab.view;
+            //    self.currentView = self.navFifthTab.view;
             break;
             
         case 6:
             [self.view addSubview:self.navSixthTab.view];
-        //    self.currentView = self.navSixthTab.view;
+            //    self.currentView = self.navSixthTab.view;
             break;
             
         case 7:
             [self.view addSubview:self.navSeventhTab.view];
-        //    self.currentView = self.navSeventhTab.view;
+            //    self.currentView = self.navSeventhTab.view;
             break;
             
         default:
             break;
     }
+}
+
+
+-(void)buttonTapped:(id)sender {
+    UIButton *btn = (UIButton *)sender;
+    NSLog(@"Tab bar %d is clicked",btn.tag);
+    [self.currentView removeFromSuperview];
+    [self tabCall:btn.tag];
+    
 }
 
 
@@ -234,7 +248,7 @@
         _navSeventhTab = [[UINavigationController alloc] initWithRootViewController:self.seventhTab];
         _navSeventhTab.navigationBar.tintColor = [UIColor blackColor];
         _navSeventhTab.view.frame = rect;
-//        _navSeventhTab.navigationBar.tintColor = [UIColor brownColor];
+        //        _navSeventhTab.navigationBar.tintColor = [UIColor brownColor];
     }
     return _navSeventhTab;
 }
