@@ -111,7 +111,7 @@
         case 1:
             
             [self.view addSubview:self.navFirstTab.view];
-            self.currentView = self.navFirstTab.view;
+           // self.currentView = self.navFirstTab.view;
             break;
             
         case 2:
@@ -153,7 +153,7 @@
 -(void)buttonTapped:(id)sender {
     UIButton *btn = (UIButton *)sender;
     NSLog(@"Tab bar %d is clicked",btn.tag);
-    [self.currentView removeFromSuperview];
+   // [self.currentView removeFromSuperview];
     [self tabCall:btn.tag];
     
 }
